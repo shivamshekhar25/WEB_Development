@@ -1,0 +1,86 @@
+🗺️ 180-Day Roadmap
+
+=> Phase 1 — Days 1–30: HTML + CSS
+
+HTML complete basics
+Forms, tables, semantic HTML
+CSS selectors, box model
+Flexbox, Grid
+Responsive design
+Animations
+Git/GitHub basics
+Minor Project 1: SkillMap
+
+=> Phase 2 — Days 31–60: JavaScript
+
+Variables, data types
+Conditions & loops
+Functions
+Arrays & objects
+DOM manipulation
+Events
+Forms & validation
+Local Storage
+Minor Project 2: StudyFlow
+
+=> Phase 3 — Days 61–90: Advanced JavaScript + APIs
+
+ES6+
+Destructuring
+Modules
+Promises
+Async/Await
+Fetch API
+JSON
+Error handling
+Public APIs
+Minor Project 3: CampusConnect
+
+=> Phase 4 — Days 91–120: React + Professional Frontend
+
+React setup
+Components
+Props
+State
+Hooks
+Forms
+Routing
+API integration
+Reusable components
+GitHub workflow
+Minor Project 4: InternFinder
+
+=> Phase 5 — Days 121–150: Backend + Database
+
+Node.js
+Express.js
+REST APIs
+MySQL
+CRUD
+Database relationships
+Authentication basics
+Frontend ↔ Backend connection
+Minor Project 5: DevVault
+
+=> Phase 6 — Days 151–180: Full Stack + AI
+
+Complete full-stack architecture
+Authentication
+Deployment basics
+Environment variables
+API security basics
+AI API integration
+Project documentation
+Portfolio preparation
+Major Project 1: CampusOS
+
++> 🚀 3 Major Projects
+
+Major 1 — CampusOS
+Full-stack college management platform.
+
+Major 2 — AI Career Navigator
+Skills + interests → skill-gap analysis + personalized learning roadmap.
+
+Major 3 — Your Own Product
+Isko hum tumhari skills develop hone ke baad zero se design karenge, taaki ye genuinely original ho.

@@ -1,0 +1,131 @@
+🟢 DAY 1 — HTML Basics
+🎯 Aaj ka goal
+
+Aaj ke end tak tum:
+
+HTML kya hai samjhoge
+Basic HTML structure bana paoge
+Heading, paragraph, link aur image use kar paoge
+Apni first webpage khud banaoge
+1. HTML kya hai?
+
+HTML = HyperText Markup Language
+
+HTML website ka structure banata hai.
+
+Example:
+
+Website
+ ├── Heading
+ ├── Paragraph
+ ├── Image
+ ├── Button
+ └── Link
+
+HTML in elements ko webpage par arrange karta hai.
+
+HTML programming language nahi hai, ye markup language hai.
+
+2. Sabse basic HTML structure
+
+VS Code kholo aur ek file banao:
+
+index.html
+
+Ab ye code khud type karo:
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Website</title>
+</head>
+
+<body>
+
+    <h1>Hello, I am Shivam</h1>
+
+    <p>I am learning Web Development.</p>
+
+</body>
+</html>
+Samjho line-by-line 👇
+
+<!DOCTYPE html>
+→ Browser ko batata hai ki document HTML5 hai.
+
+<html>
+→ Puri HTML website ka container.
+
+<head>
+→ Website ki information/settings.
+
+<title>
+→ Browser tab mein naam dikhata hai.
+
+<body>
+→ Jo content webpage par dikhega.
+
+<h1>
+→ Main/big heading.
+
+<p>
+→ Paragraph.
+
+3. Ab thoda interesting banate hain 😎
+
+Apne <body> ke andar ye add karo:
+
+<h1>Welcome to My Website</h1>
+
+<h2>About Me</h2>
+
+<p>
+    Hello! My name is Shivam.
+    I am a BCA student and I am learning Web Development.
+</p>
+
+<a href="https://www.google.com">Visit Google</a>
+
+Ab tumhari website mein:
+
+Heading → About section → Paragraph → Link
+
+aa jayega.
+
+🧠 DAY 1 PRACTICE
+
+Ab main tumhe ready-made code nahi dunga. Ye tumhara first challenge hai.
+
+Ek webpage banao jisme:
+
+h1 → My Portfolio
+h2 → About Me
+Ek paragraph → apne baare mein 3–4 lines
+h2 → My Skills
+Ek paragraph mein apni skills
+Ek link → GitHub ya LinkedIn
+⭐ Bonus Challenge
+
+Ek aur heading add karo:
+
+My Goal
+
+Aur uske neeche likho ki 3–4 saal baad tum kya achieve karna chahte ho.
+
+
+
+🎯 Day 1 — Final Challenge
+
+Apne page mein ab ye 3 cheezein khud add karo:
+
+My Education — <h2> + paragraph
+My Hobbies — <h2> + paragraph
+My Projects — <h2> + paragraph
+
+Aur GitHub link ke neeche ek email link add karne ki koshish karo.
+Hint:
+
+<a href="mailto:your@email.com">Email Me</a>
+
+
+thanks God
