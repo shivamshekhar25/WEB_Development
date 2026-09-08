@@ -1,0 +1,213 @@
+🟢 Day 2 — HTML Links, Images & Lists
+
+Welcome back! 😎 Aaj hum HTML ke 3 important topics seekhenge:
+
+🔗 Links
+🖼️ Images
+📋 Lists
+
+Aaj ka goal hai ki tumhari simple portfolio website thodi proper website jaisi dikhne lage.
+
+1️⃣ HTML Links
+
+Kal humne ye use kiya tha:
+
+<a href="https://github.com/shivamshekhar25">GitHub</a>
+a ka matlab
+
+<a> = Anchor tag
+
+Iska use kisi doosre page/website par jaane ke liye hota hai.
+
+href kya hai?
+
+href mein hum destination/address dete hain.
+
+Example:
+
+<a href="https://www.google.com">Google</a>
+
+Browser mein Google par click karoge → Google open hoga.
+
+New tab mein open karna
+<a href="https://github.com/shivamshekhar25" target="_blank">
+    GitHub
+</a>
+
+target="_blank" → link ko new tab mein open karta hai.
+
+2️⃣ Email Link
+
+Kal jo correction kiya tha, yaad hai? 👇
+
+<a href="mailto:shivamshekhar711@gmail.com">Email Me</a>
+
+mailto: browser ko batata hai ki ye email address hai.
+
+3️⃣ Images 🖼️
+
+HTML mein image ke liye:
+
+<img src="image.jpg" alt="My Photo">
+Isko samjho:
+
+img → image element
+
+src → image ka location/path
+
+alt → image load na ho to alternative text
+
+📁 Agar image same folder mein hai
+
+Maan lo tumhara folder:
+
+Portfolio
+│
+├── index.html
+└── photo.jpg
+
+To:
+
+<img src="photo.jpg" alt="My Photo">
+Image ki size
+<img src="photo.jpg" alt="My Photo" width="200">
+
+Ab image ki width 200 pixels hogi.
+
+CSS seekhne ke baad hum images ki styling properly karenge. Abhi HTML attribute se basic practice kar rahe hain.
+
+
+
+
+4️⃣ Lists 📋
+
+HTML mein mainly 2 important lists hoti hain.
+
+Unordered List
+
+Jisme bullets aate hain:
+
+<ul>
+    <li>Python</li>
+    <li>Java</li>
+    <li>HTML</li>
+    <li>CSS</li>
+</ul>
+
+Result roughly:
+
+Python
+Java
+HTML
+CSS
+
+ul = Unordered List
+li = List Item
+
+Ordered List
+
+Jisme numbering aati hai:
+
+<ol>
+    <li>Learn HTML</li>
+    <li>Learn CSS</li>
+    <li>Learn JavaScript</li>
+</ol>
+
+Result:
+
+Learn HTML
+Learn CSS
+Learn JavaScript
+
+ol = Ordered List
+
+HTML mein list ka type change kar sakte ho:
+
+<ol type="1">
+<ol type="A">
+<ol type="a">
+<ol type="I">
+<ol type="i">
+
+
+Task 1 — Skills ko list mein convert karo
+
+Abhi tumhare paas hai:
+
+<p>Programming Language C, Python, Java...</p>
+
+Isko ul mein convert karo:
+
+C
+Python
+Java
+HTML
+CSS
+Task 2 — Hobbies ki list banao
+
+Tumhare hobbies:
+
+Traveling
+Exploring heritage places
+Gaining knowledge
+
+Inko <ul> mein banao.
+
+Task 3 — Goals ko ordered list banao
+
+Example:
+
+Learn Web Development
+Learn AI/ML
+Build Projects
+Become a Software Engineer
+
+Ye ol se banana hai.
+
+
+
+Task 4 — GitHub + Email
+
+Apne existing links ko update karo:
+
+GitHub → new tab mein open ho
+Gmail → mailto: use kar
+
+
+
+🎯 Day 2 Challenge
+
+Tumhare <body> ka structure roughly aisa hona chahiye:
+
+My Portfolio
+
+About
+
+Skills
+• C
+• Python
+• Java
+• HTML
+• CSS
+
+Goals
+1. ...
+2. ...
+3. ...
+
+Education
+
+Hobbies
+• ...
+• ...
+• ...
+
+Projects
+
+[Image]
+
+GitHub
+Gmail
+
+thanks God
