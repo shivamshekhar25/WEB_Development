@@ -1,0 +1,202 @@
+🟢 Day 3 — HTML Tables & Forms
+
+Welcome back! 😎
+Aaj hum Tables + Forms + Input Types seekhenge. Ye dono future projects ke liye bahut important hain.
+
+🎯 Aaj ka Goal
+
+Aaj ke end tak tum:
+
+HTML table bana paoge
+Rows/columns samjhoge
+Form bana paoge
+Different input types use kar paoge
+Apne portfolio mein Education/Skills table aur Contact form add kar paoge
+1️⃣ HTML Table
+
+Table ka basic structure:
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Course</th>
+        <th>Year</th>
+    </tr>
+
+    <tr>
+        <td>Shivam</td>
+        <td>BCA AI & ML</td>
+        <td>2nd Year</td>
+    </tr>
+</table>
+Samjho:
+
+<table> → poori table
+
+<tr> → Table Row
+
+<th> → Table Heading
+
+<td> → Table Data
+
+Structure:
+
+        Name       Course          Year
+         ↓           ↓              ↓
+       ┌───────┬─────────────┬─────────┐
+       │ Name  │ Course      │ Year    │
+       ├───────┼─────────────┼─────────┤
+       │ Shivam│ BCA AI & ML │ 2nd     │
+       └───────┴─────────────┴─────────┘
+2️⃣ border kya hota hai?
+
+Abhi CSS nahi seekha hai, isliye basic practice ke liye:
+
+<table border="1">
+
+Isse table ki boundaries visible ho jayengi.
+
+Note: Professional websites mein hum baad mein CSS se border lagayenge.
+
+3️⃣ Portfolio mein Education Table
+
+Tum apne portfolio mein ye information table ke form mein rakh sakte ho:
+
+<h2>Education</h2>
+
+<table border="1">
+    <tr>
+        <th>Qualification</th>
+        <th>Board/University</th>
+        <th>Percentage</th>
+    </tr>
+
+    <tr>
+        <td>10th</td>
+        <td>BSEB</td>
+        <td>67%</td>
+    </tr>
+
+    <tr>
+        <td>12th</td>
+        <td>BSEB</td>
+        <td>78.9%</td>
+    </tr>
+
+    <tr>
+        <td>BCA</td>
+        <td>University</td>
+        <td>Currently Studying</td>
+    </tr>
+</table>
+
+
+
+4️⃣ HTML Forms 📝
+
+Form ka use user se information lene ke liye hota hai.
+
+Examples:
+
+Login
+Registration
+Contact Us
+Feedback
+Search
+Student information
+
+Basic form:
+
+<form>
+
+    <label>Name:</label>
+    <input type="text">
+
+    <br><br>
+
+    <label>Email:</label>
+    <input type="email">
+
+    <br><br>
+
+    <button>Submit</button>
+
+</form>
+5️⃣ Input Types
+
+HTML mein different types ke inputs hote hain.
+
+Text
+<input type="text">
+
+Name ke liye.
+
+Email
+<input type="email">
+
+Email ke liye.
+
+Password
+<input type="password">
+
+Password ke liye.
+
+Number
+<input type="number">
+
+Number ke liye.
+
+Date
+<input type="date">
+
+Date select karne ke liye.
+
+File
+<input type="file">
+
+File upload ke liye.
+
+Radio
+<input type="radio" name="gender"> Male
+<input type="radio" name="gender"> Female
+
+Radio buttons mein name same rakhne se ek group banta hai.
+
+Checkbox
+<input type="checkbox"> HTML
+<input type="checkbox"> CSS
+<input type="checkbox"> JavaScript
+
+Checkbox mein multiple options select kiye ja sakte hain.
+
+6️⃣ Label ka use
+
+Better form:
+
+<label for="name">Name:</label>
+<input type="text" id="name">
+
+Yahan:
+
+for="name"
+      ↓
+id="name"
+
+Dono connected hain.
+
+7️⃣ Textarea
+
+Long message ke liye:
+
+<label for="message">Message:</label>
+
+<textarea id="message" rows="5" cols="30"></textarea>
+
+Example:
+
+Message:
+┌─────────────────────────┐
+│                         │
+│                         │
+│                         │
+└─────────────────────────┘
