@@ -1,0 +1,188 @@
+🟢 Day 4 — HTML Structure & div, span, class, id
+
+Welcome back! 🔥
+Aaj se hum HTML ko proper website structure dena start karenge. Tum ab basic HTML samajh chuke ho, isliye aaj ka lesson thoda next level ka hoga.
+
+🎯 Aaj ka target
+
+Aaj hum seekhenge:
+
+<div>
+<span>
+class
+id
+HTML comments
+header, main, section, footer
+Proper webpage structure
+1️⃣ <div> — Section/Container
+
+<div> ek container hota hai jisme multiple HTML elements ko group kar sakte hain.
+
+Example:
+
+<div>
+    <h2>About Me</h2>
+    <p>I am a BCA student.</p>
+</div>
+
+Abhi visually kuch special nahi hoga.
+
+Lekin CSS mein hum bol sakte hain:
+
+Is poore div ka background change karo, spacing do, border lagao etc.
+
+Isliye <div> CSS ke saath bahut important hai.
+
+2️⃣ <span> — Chhote text ko target karna
+
+span mostly text ke ek particular part ko target karne ke liye use hota hai.
+
+Example:
+
+<p>
+    I am learning <span>Web Development</span>.
+</p>
+
+Baad mein CSS se sirf Web Development ko alag style kar sakte hain.
+
+Difference yaad rakho:
+<div>  → large/group container
+<span> → small/inline content
+3️⃣ class
+
+class ka use elements ko group karne ke liye hota hai.
+
+Example:
+
+<div class="skill">
+    <h2>My Skills</h2>
+    <p>Python, Java, HTML, CSS</p>
+</div>
+
+Multiple elements ki same class ho sakti hai:
+
+<p class="text">Hello</p>
+<p class="text">Welcome</p>
+<p class="text">Thank You</p>
+
+CSS mein baad mein:
+
+.text {
+    color: blue;
+}
+
+To teeno text par same styling apply ho sakti hai.
+
+4️⃣ id
+
+id kisi element ki unique identity ke liye hoti hai.
+
+Example:
+
+<h2 id="about">About Me</h2>
+
+Ek page mein generally same id ko multiple elements ko nahi dena chahiye.
+
+class vs id
+Class	ID
+Multiple elements	Usually unique element
+Grouping ke liye	Specific element ke liye
+.name CSS selector	#name CSS selector
+
+Example:
+
+<p class="text">Hello</p>
+<p class="text">Welcome</p>
+
+<h2 id="about">About Me</h2>
+5️⃣ HTML Comments
+
+Comment browser mein display nahi hota.
+
+<!-- This is my About section -->
+
+Comments code ko samajhne mein help karte hain.
+
+Example:
+
+<!-- Skills Section -->
+
+<h2>My Skills</h2>
+VS Code shortcut
+
+Comment toggle karne ke liye:
+
+Windows: Ctrl + /
+
+6️⃣ Semantic HTML 🧠
+
+Ab ek important concept.
+
+HTML mein kuch tags ka meaning clearly defined hota hai.
+
+<header>
+
+Website/page ka top area.
+
+<header>
+    <h1>My Portfolio</h1>
+</header>
+<main>
+
+Page ka main content.
+
+<main>
+    ...
+</main>
+<section>
+
+Page ka ek specific section.
+
+<section>
+    <h2>About Me</h2>
+    <p>I am a BCA student.</p>
+</section>
+<footer>
+
+Page ka bottom area.
+
+<footer>
+    <p>© 2026 Shivam</p>
+</footer>
+🏗️ Proper Website Structure
+
+Ab tumhari website ka structure kuch aisa ho sakta hai:
+
+<html>
+ │
+ ├── <head>
+ │
+ └── <body>
+      │
+      ├── <header>
+      │
+      ├── <main>
+      │    ├── About
+      │    ├── Skills
+      │    ├── Education
+      │    └── Projects
+      │
+      └── <footer>
+
+Ye professional HTML structure ki foundation hai.
+
+
+
+🧠 Ab code ko dekhte waqt ye 5 cheezein yaad rakho
+
+section → page ka ek major section
+div → elements ko group karne ka container
+class → similar elements ko group/style karne ke liye
+id → particular section ki unique identity
+span → text ke chhote part ko target karne ke liye
+
+Example:
+
+<p>I am <span>Shivam</span>.</p>
+
+Yahan sirf Shivam ko baad mein CSS se alag style kar sakte hain.
