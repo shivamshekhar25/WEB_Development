@@ -1,0 +1,214 @@
+🚀 Day 5 — HTML Final Concepts
+
+Aaj hum HTML ke important remaining concepts complete karenge.
+Day 5 ke baad HTML foundation complete ✅ aur Day 6 se CSS start karenge.
+
+🎯 Aaj ka Goal
+favicon
+br vs hr
+strong, em, b, i
+figure + figcaption
+audio + video
+button
+Form attributes: required, placeholder
+Basic accessibility
+1️⃣ Favicon
+
+Browser tab mein website ke title ke paas jo small icon hota hai, use favicon kehte hain.
+
+<head>
+    <title>Shivam Portfolio</title>
+
+    <link rel="icon" href="om.png">
+</head>
+
+📌 href="om.png" → image file ka path.
+
+2️⃣ <br> vs <hr>
+<br> → Line break
+<p>Hello Shivam <br> Welcome to my Portfolio</p>
+
+Output:
+
+Hello Shivam
+Welcome to my Portfolio
+<hr> → Horizontal line
+<h2>About Me</h2>
+<hr>
+<p>I am a BCA student.</p>
+3️⃣ Text Formatting
+<strong>
+
+Important text:
+
+<p>I am learning <strong>Web Development</strong>.</p>
+<em>
+
+Emphasized text:
+
+<p>I love <em>coding</em>.</p>
+<b> and <i>
+<p><b>HTML</b> is easy.</p>
+
+<p><i>Keep Learning</i></p>
+Simple difference
+Tag	Use
+<strong>	Important text
+<em>	Emphasis
+<b>	Bold appearance
+<i>	Italic appearance
+
+👉 Beginner level par strong aur em ko prefer karna achha practice hai.
+
+4️⃣ <figure> + <figcaption>
+
+Image ke saath description/caption dene ke liye.
+
+<figure>
+    <img src="om.png" alt="Portfolio image" width="200">
+
+    <figcaption>
+        My Portfolio Image
+    </figcaption>
+</figure>
+
+Structure:
+
+Figure
+ ├── Image
+ └── Caption
+5️⃣ Audio
+
+Website mein audio add karne ke liye:
+
+<audio controls>
+    <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+controls ki wajah se user ko play/pause controls milte hain.
+
+6️⃣ Video
+<video width="400" controls>
+    <source src="video.mp4" type="video/mp4">
+</video>
+
+⚠️ File tumhare project folder mein honi chahiye.
+
+Example:
+
+Portfolio/
+│
+├── index.html
+├── om.png
+├── music.mp3
+└── video.mp4
+7️⃣ <button>
+
+Button banane ke liye:
+
+<button>Click Me</button>
+
+Form mein:
+
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+8️⃣ Important Form Attributes
+placeholder
+
+Input ke andar hint:
+
+<input type="text" placeholder="Enter your name">
+required
+
+Field ko compulsory banata hai:
+
+<input type="email" required>
+
+User field empty chhodkar submit karega to browser validation karega.
+
+Example
+<form>
+
+    <label>Name:</label>
+    <input
+        type="text"
+        placeholder="Enter your name"
+        required
+    >
+
+    <br><br>
+
+    <label>Email:</label>
+    <input
+        type="email"
+        placeholder="Enter your email"
+        required
+    >
+
+    <br><br>
+
+    <button type="submit">Submit</button>
+
+</form>
+9️⃣ Accessibility — Basic Idea
+
+Accessibility ka matlab hai website ko different users ke liye easy to use banana.
+
+Image mein alt important hai:
+
+<img src="om.png" alt="Shivam's portfolio image">
+
+Agar image load nahi hoti, alt text useful hota hai.
+
+Label ko input se connect karna bhi good practice hai:
+
+<label for="email">Email:</label>
+
+<input type="email" id="email">
+
+Yahan:
+
+label for="email"
+       ↓
+input id="email"
+
+Dono connected hain.
+
+
+
+
+
+
+🏆 Day 5 Mini Practice
+
+Apne portfolio index.html mein ye 5 cheezein add karo:
+
+Task 1
+
+Favicon add karo.
+
+Task 2
+
+About aur Skills ke beech <hr> lagao.
+
+Task 3
+
+Apne naam ko <strong> se highlight karo.
+
+Task 4
+
+Portfolio image ko <figure> + <figcaption> mein convert karo.
+
+Task 5
+
+Contact form mein:
+
+placeholder
+required
+<button type="submit">
+
+add karo.
+
+
+
+thanks
